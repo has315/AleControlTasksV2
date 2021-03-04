@@ -14,8 +14,10 @@
 	Puno srece ;-)
 */
 
+
+
 import React from 'react';
-import users from './users.json';
+import users from '../users.json';
 
 const App = () => {
 	const { formatted, sortBy, filter, search } = useFormattedData(users);
