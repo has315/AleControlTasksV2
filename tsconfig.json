@@ -9,6 +9,7 @@
       "ESNext",
       "DOM"
     ],
+    "allowJs": true,
     /* Specify JSX code generation */
     "jsx": "react",
     /* Generate corresponding .map files */
@@ -21,7 +22,9 @@
     "baseUrl": "./src",
     /* Maps imports to locations - e.g. ~models will go to ./src/models */
     "paths": {
-      "~/*": [ "./*" ]
+      "~/*": [
+        "./*"
+      ]
     },
     /* List of folders to include type definitions from */
     "typeRoots": [
@@ -33,6 +36,7 @@
     "esModuleInterop": true,
   },
   "include": [
-    "src/**/*"
-, "types"  ]
+    "src/**/*",
+    "types",
+  ]
 }

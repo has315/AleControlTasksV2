@@ -16,7 +16,7 @@
 
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import users from '../users.json';
 
 const App = () => {

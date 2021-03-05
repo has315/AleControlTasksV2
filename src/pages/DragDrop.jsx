@@ -21,27 +21,28 @@
 	Puno srece ;-)
 */
 import React, { useState } from 'react';
-import { DragContext, DragArea, DragItem } from 'path_to_your_file';
-import users from './users.json';
+// import { DragContext, DragArea, DragItem } from 'path_to_your_file';
+import users from '../data/users';
 
 export const DraggableUserList = () => {
 	// Example
 	const [exampleUsers, setExampleUsers] = useState(users);
 
-	return (
-		<DragContext note="Ovo je opcionalan wrapper">
-			<ul>
-				<DragArea items={exampleUsers} onChange={setExampleUsers}>
-					{exampleUsers.map((user, i) => (
-						<DragItem note="ovde moze da ide key, index, itd.">
-							<li>
-								<span>{user.name}</span>
-								<span>{user.email}</span>
-							</li>
-						</DragItem>
-					))}
-				</DragArea>
-			</ul>
-		</DragContext>
-	);
+	// return (
+		// <DragContext note="Ovo je opcionalan wrapper">
+		// 	<ul>
+		// 		<DragArea items={exampleUsers} onChange={setExampleUsers}>
+		// 			{exampleUsers.map((user, i) => (
+		// 				<DragItem note="ovde moze da ide key, index, itd.">
+		// 					<li>
+		// 						<span>{user.name}</span>
+		// 						<span>{user.email}</span>
+		// 					</li>
+		// 				</DragItem>
+		// 			))}
+		// 		</DragArea>
+		// 	</ul>
+		// </DragContext>
+	// );
 };
+

@@ -1,17 +1,15 @@
-// Component Nesting
-type WithChildren<T = {} > = T & {children?: React.ReactNode}
-
 
 //Form Types
-type FormProps = WithChildren<{
+export type FormProps = {
     initialValues: any,
     onSubmit: any,
-    className: string
-}>
+    className: string,
+    children?: React.ReactNode
+}
 
 
 // Input Types
-type FormInputs = {
+export interface FormInputs {
     email: string,
     age: number,
     name: string,
@@ -22,7 +20,7 @@ type FormInputs = {
 }
 
 //Input props types
-type FormInput = {
+export interface FormInput {
     type: string,
     name: string,
     placeHolder: string,
@@ -30,4 +28,3 @@ type FormInput = {
     onChange: React.FormEvent<HTMLInputElement>
 }
 
-export * from "./FormTypes";

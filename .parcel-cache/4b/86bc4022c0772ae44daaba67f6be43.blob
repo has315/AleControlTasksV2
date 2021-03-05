@@ -1,0 +1,56 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  _parcelHelpers.export(exports, "PageWithForm", function () {
+    return PageWithForm;
+  });
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _componentsFormForm = require('../components/Form/Form');
+  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\pages\\form.tsx", _s = $RefreshSig$();
+  const PageWithForm = () => {
+    _s();
+    // Example
+    const [userInfo, setUserInfo] = _react.useState({
+      email: 'example@alea.com',
+      age: 30,
+      name: 'John Doe',
+      phone: {
+        ext: '00387',
+        number: '65/123-456'
+      }
+    });
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 3
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_componentsFormForm.Form, {
+        className: "",
+        initialValues: userInfo,
+        onSubmit: setUserInfo,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 5
+        }
+      }))
+    );
+  };
+  _s(PageWithForm, "hW/s37q/F5ITPcpEe7n5e7vDtSA=");
+  _c = PageWithForm;
+  var _c;
+  $RefreshReg$(_c, "PageWithForm");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

@@ -1,0 +1,87 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  _parcelHelpers.export(exports, "DraggableUserList", function () {
+    return DraggableUserList;
+  });
+  var _react = require('react');
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _path_to_your_file = require('path_to_your_file');
+  var _usersJson = require('./users.json');
+  var _usersJsonDefault = _parcelHelpers.interopDefault(_usersJson);
+  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\pages\\DragDrop.jsx", _s = $RefreshSig$();
+  const DraggableUserList = () => {
+    _s();
+    // Example
+    const [exampleUsers, setExampleUsers] = _react.useState(_usersJsonDefault.default);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(_path_to_your_file.DragContext, {
+        note: "Ovo je opcionalan wrapper",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 3
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("ul", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 4
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement(_path_to_your_file.DragArea, {
+        items: exampleUsers,
+        onChange: setExampleUsers,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 5
+        }
+      }, exampleUsers.map((user, i) => /*#__PURE__*/_reactDefault.default.createElement(_path_to_your_file.DragItem, {
+        note: "ovde moze da ide key, index, itd.",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("li", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 8
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("span", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 9
+        }
+      }, user.name), /*#__PURE__*/_reactDefault.default.createElement("span", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 9
+        }
+      }, user.email)))))))
+    );
+  };
+  _s(DraggableUserList, "w9I+cmSttqKBsLMd6rykf6Bx0zE=");
+  _c = DraggableUserList;
+  exports.default = DragnDrop;
+  var _c;
+  $RefreshReg$(_c, "DraggableUserList");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
