@@ -17,7 +17,7 @@ const Application: React.FC<{}> = () => (
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/Form">Form</Link>
+                        <Link to="/form">Form</Link>
                     </li>
                     <li>
                         <Link to="/dashboard">Dashboard</Link>
@@ -37,7 +37,7 @@ const Application: React.FC<{}> = () => (
                     <Route exact path="/">
                         {/* <DragDrop /> */}
                     </Route>
-                    <Route path="/Form">
+                    <Route path="/form">
                         <PageWithForm/>
                     </Route>
                     <Route path="/dashboard">

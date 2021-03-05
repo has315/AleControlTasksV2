@@ -9,7 +9,7 @@ export type FormProps = {
 
 
 // Input Types
-export interface FormInputs {
+export type FormInputsTypes ={
     email: string,
     age: number,
     name: string,
@@ -20,11 +20,11 @@ export interface FormInputs {
 }
 
 //Input props types
-export interface FormInput {
+export type FormInputTypes = {
     type: string,
     name: string,
     placeHolder: string,
     required: boolean,
-    onChange: React.FormEvent<HTMLInputElement>
+    onChange: React.ChangeEventHandler<HTMLInputElement> | undefined
 }
 

@@ -1,4 +1,4 @@
-24802
+24803
 81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\es\string\includes.js121436361000000000 0
 59C:\Users\Has\Desktop\AleControlTasksV2\node_modules\is-html132593297985716126 1
 67C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es-to-primitive132593297993843679 1
@@ -10,7 +10,7 @@
 65C:\Users\Has\Desktop\AleControlTasksV2\node_modules\vm-browserify132593297992866379 1
 91C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es-abstract\2016\IterableToArrayLike.js121436361000000000 0
 114C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\fn\string\virtual\index.js121436361000000000 0
-49C:\Users\Has\Desktop\AleControlTasksV2\.gitignore132593272521927193 0
+49C:\Users\Has\Desktop\AleControlTasksV2\.gitignore132594273333478834 0
 91C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\core\lib\config\files\plugins.js121012626000000000 0
 81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\postcss-minify-gradients\dist132593297986823071 1
 81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\traverse\lib\scope\lib132593297999039322 1
@@ -39,7 +39,7 @@
 69C:\Users\Has\Desktop\AleControlTasksV2\node_modules\array-filter\test132593297991051395 1
 127C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\modules\es6.number.parse-int.js121436361000000000 0
 111C:\Users\Has\Desktop\AleControlTasksV2\node_modules\postcss-modules-extract-imports\node_modules\supports-color132593297986862959 1
-43C:\Users\Has\Desktop\AleControlTasksV2\dist132594253475943064 1
+43C:\Users\Has\Desktop\AleControlTasksV2\dist132594343716350534 1
 68C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babylon-walk\lib132593297989745000 1
 71C:\Users\Has\Desktop\AleControlTasksV2\node_modules\dashdash\CHANGES.md131243276120000000 0
 70C:\Users\Has\Desktop\AleControlTasksV2\node_modules\type-check\LICENSE130732673620000000 0
@@ -65,25 +65,6 @@
 76C:\Users\Has\Desktop\AleControlTasksV2\node_modules\cross-spawn\package.json132593297984250182 0
 90C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\types\lib\validators\isScope.js121012626000000000 0
 97C:\Users\Has\Desktop\AleControlTasksV2\node_modules\postcss-modules-scope\node_modules\source-map132593297995548964 1
-77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\readable-stream\duplex.js121436361000000000 0
-88C:\Users\Has\Desktop\AleControlTasksV2\node_modules\cssstyle\lib\properties\borderTop.js121436361000000000 0
-92C:\Users\Has\Desktop\AleControlTasksV2\node_modules\terser\node_modules\source-map\README.md131709651130000000 0
-91C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\test\unary\unsupported.js121436361000000000 0
-116C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\es6.regexp.search.js121436361000000000 0
-77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es6-object-assign\auto.js131343425800000000 0
-81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\features\array\map.js121436361000000000 0
-81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-plugin-polyfill-corejs3132593297990403179 1
-112C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\fn\array\sort.js121436361000000000 0
-69C:\Users\Has\Desktop\AleControlTasksV2\node_modules\lodash\fp\cond.js121436361000000000 0
-82C:\Users\Has\Desktop\AleControlTasksV2\node_modules\json-schema-traverse\README.md131702816850000000 0
-128C:\Users\Has\Desktop\AleControlTasksV2\node_modules\stylehacks\node_modules\postcss-selector-parser\postcss-selector-parser.d.ts121436361000000000 0
-92C:\Users\Has\Desktop\AleControlTasksV2\node_modules\postcss-normalize-positions\package.json121436361000000000 0
-87C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\types\lib\constants\index.js121012626000000000 0
-136C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\transformer-posthtml\node_modules\domutils\node_modules\domhandler\README.md121436361000000000 0
-101C:\Users\Has\Desktop\AleControlTasksV2\node_modules\regenerate-unicode-properties\Script\Cuneiform.js121436361000000000 0
-97C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\package-manager\test\fixtures\has-foo132593298000924121 1
-75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\magic-string\index.d.ts132593297985456843 0
-59C:\Users\Has\Desktop\AleControlTasksV2\node_modules\ieee754132593297987012545 1
 85C:\Users\Has\Desktop\AleControlTasksV2\node_modules\highlight.js\scss\school-book.png121436361000000000 0
 109C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-runtime\node_modules\core-js\modules\_dom-create.js121436361000000000 0
 51C:\Users\Has\Desktop\AleControlTasksV2\node_modules132593727243737362 1
@@ -168,7 +149,7 @@
 101C:\Users\Has\Desktop\AleControlTasksV2\node_modules\jsdom\lib\jsdom\living\generated\ScrollOptions.js121436361000000000 0
 100C:\Users\Has\Desktop\AleControlTasksV2\node_modules\typescript\loc\lcl\PLK\TypeScriptLanguageService132593298014716026 1
 84C:\Users\Has\Desktop\AleControlTasksV2\node_modules\resolve\test\module_dir\zmodules132593298002719158 1
-62C:\Users\Has\Desktop\AleControlTasksV2\src\types\FormTypes.tsx132594164684943795 0
+62C:\Users\Has\Desktop\AleControlTasksV2\src\types\FormTypes.tsx132594323765910028 0
 114C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\util\support\isBufferBrowser.js121436361000000000 0
 63C:\Users\Has\Desktop\AleControlTasksV2\node_modules\arr-flatten132593297985476791 1
 91C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es6-object-assign\dist\object-assign.js131343429060000000 0
@@ -240,7 +221,7 @@
 91C:\Users\Has\Desktop\AleControlTasksV2\node_modules\postcss-minify-font-values\package.json121436361000000000 0
 103C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\helper-remap-async-to-generator\package.json121012626000000000 0
 86C:\Users\Has\Desktop\AleControlTasksV2\node_modules\highlight.js\lib\languages\flix.js121436361000000000 0
-52C:\Users\Has\Desktop\AleControlTasksV2\src\index.tsx132594249653159223 0
+52C:\Users\Has\Desktop\AleControlTasksV2\src\index.tsx132594325040309186 0
 58C:\Users\Has\Desktop\AleControlTasksV2\node_modules\nwsapi132593297992437564 1
 105C:\Users\Has\Desktop\AleControlTasksV2\node_modules\purgecss\node_modules\source-map\lib\binary-search.js131369414910000000 0
 69C:\Users\Has\Desktop\AleControlTasksV2\node_modules\send\package.json121436361000000000 0
@@ -274,7 +255,7 @@
 88C:\Users\Has\Desktop\AleControlTasksV2\node_modules\coa\node_modules\color-name\index.js131446304070000000 0
 77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\modules\README.md121436361000000000 0
 85C:\Users\Has\Desktop\AleControlTasksV2\node_modules\whatwg-url\lib\URLSearchParams.js121436361000000000 0
-57C:\Users\Has\Desktop\AleControlTasksV2\src\pages\form.jsx132594253474032284 0
+57C:\Users\Has\Desktop\AleControlTasksV2\src\pages\form.jsx132594343714246161 0
 81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\source-map-support\LICENSE.md121436361000000000 0
 89C:\Users\Has\Desktop\AleControlTasksV2\node_modules\csso\node_modules\css-tree\lib\syntax132593298002340205 1
 92C:\Users\Has\Desktop\AleControlTasksV2\node_modules\binary-extensions\binary-extensions.json121436361000000000 0
@@ -357,7 +338,7 @@
 75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\typescript\bin\tsserver121436361000000000 0
 98C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\modules\esnext.iterator.constructor.js121436361000000000 0
 105C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\fn\typed\index.js121436361000000000 0
-58C:\Users\Has\Desktop\AleControlTasksV2\src\components\Form132593272521977060 1
+58C:\Users\Has\Desktop\AleControlTasksV2\src\components\Form132594325893979533 1
 73C:\Users\Has\Desktop\AleControlTasksV2\node_modules\lodash\fp\stubTrue.js121436361000000000 0
 78C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@nodelib\fs.walk\src\types132593298000445438 1
 74C:\Users\Has\Desktop\AleControlTasksV2\node_modules\react-router\Switch.js121436361000000000 0
@@ -383,7 +364,9 @@
 98C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\es7\map.js121436361000000000 0
 75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\css-what\lib\parse.d.ts121436361000000000 0
 109C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\node-forge\lib\cipherModes.js121436361000000000 0
-67C:\Users\Has\Desktop\AleControlTasksV2\src\components\Form\Form.tsx132594185655055654 0
+67C:\Users\Has\Desktop\AleControlTasksV2\src\components\Form\Form.tsx132594338602951839 0
+72C:\Users\Has\Desktop\AleControlTasksV2\src\components\Form\FormInput.tsx132594341242796973 0
+108C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\web\index.js121436361000000000 0
 121C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\es6.typed.array-buffer.js121436361000000000 0
 74C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-forge\lib\mgf1.js121436361000000000 0
 68C:\Users\Has\Desktop\AleControlTasksV2\node_modules\wrappy\wrappy.js131080005270000000 0
@@ -719,6 +702,25 @@
 84C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-plugin-dynamic-import-node132593297991968855 1
 80C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\stable\math\clz32.js121436361000000000 0
 87C:\Users\Has\Desktop\AleControlTasksV2\node_modules\unicode-trie\node_modules\pako\dist132593297997393868 1
+77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\readable-stream\duplex.js121436361000000000 0
+88C:\Users\Has\Desktop\AleControlTasksV2\node_modules\cssstyle\lib\properties\borderTop.js121436361000000000 0
+92C:\Users\Has\Desktop\AleControlTasksV2\node_modules\terser\node_modules\source-map\README.md131709651130000000 0
+91C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\test\unary\unsupported.js121436361000000000 0
+116C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\es6.regexp.search.js121436361000000000 0
+77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es6-object-assign\auto.js131343425800000000 0
+81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\features\array\map.js121436361000000000 0
+81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-plugin-polyfill-corejs3132593297990403179 1
+112C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\fn\array\sort.js121436361000000000 0
+69C:\Users\Has\Desktop\AleControlTasksV2\node_modules\lodash\fp\cond.js121436361000000000 0
+82C:\Users\Has\Desktop\AleControlTasksV2\node_modules\json-schema-traverse\README.md131702816850000000 0
+128C:\Users\Has\Desktop\AleControlTasksV2\node_modules\stylehacks\node_modules\postcss-selector-parser\postcss-selector-parser.d.ts121436361000000000 0
+92C:\Users\Has\Desktop\AleControlTasksV2\node_modules\postcss-normalize-positions\package.json121436361000000000 0
+87C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\types\lib\constants\index.js121012626000000000 0
+136C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\transformer-posthtml\node_modules\domutils\node_modules\domhandler\README.md121436361000000000 0
+101C:\Users\Has\Desktop\AleControlTasksV2\node_modules\regenerate-unicode-properties\Script\Cuneiform.js121436361000000000 0
+97C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\package-manager\test\fixtures\has-foo132593298000924121 1
+75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\magic-string\index.d.ts132593297985456843 0
+59C:\Users\Has\Desktop\AleControlTasksV2\node_modules\ieee754132593297987012545 1
 117C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-runtime\node_modules\core-js\modules\es7.promise.finally.js121436361000000000 0
 89C:\Users\Has\Desktop\AleControlTasksV2\node_modules\source-map\dist\source-map.min.js.map131477959740000000 0
 100C:\Users\Has\Desktop\AleControlTasksV2\node_modules\regenerate-unicode-properties\Script\Balinese.js121436361000000000 0
@@ -858,10 +860,6 @@
 88C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\features\set\is-subset-of.js121436361000000000 0
 107C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\buffer\test\to-string.js121436361000000000 0
 67C:\Users\Has\Desktop\AleControlTasksV2\node_modules\browserify-zlib132593297993743950 1
-75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\astring\babel.config.js121436361000000000 0
-102C:\Users\Has\Desktop\AleControlTasksV2\node_modules\stream-http\node_modules\readable-stream\README.md121436361000000000 0
-76C:\Users\Has\Desktop\AleControlTasksV2\node_modules\rgba-regex\.editorconfig130673243740000000 0
-89C:\Users\Has\Desktop\AleControlTasksV2\node_modules\is-boolean-object\.github\FUNDING.yml121436361000000000 0
 84C:\Users\Has\Desktop\AleControlTasksV2\node_modules\util.promisify\implementation.js121436361000000000 0
 85C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\modules\es.regexp.exec.js121436361000000000 0
 102C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\node-forge\lib\jsbn.js121436361000000000 0
@@ -944,9 +942,9 @@
 108C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\fast-glob\out\utils\array.js121436361000000000 0
 62C:\Users\Has\Desktop\AleControlTasksV2\node_modules\cache-base132593297985546593 1
 112C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\node_modules\object-inspect\example\inspect.js130944230220000000 0
-72C:\Users\Has\Desktop\AleControlTasksV2\node_modules\unset-value\index.js130907082060000000 0
 65C:\Users\Has\Desktop\AleControlTasksV2\node_modules\fastq\.github132593297992836457 1
 63C:\Users\Has\Desktop\AleControlTasksV2\node_modules\emoji-regex132593297987920049 1
+72C:\Users\Has\Desktop\AleControlTasksV2\node_modules\unset-value\index.js130907082060000000 0
 112C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-runtime\node_modules\core-js\library\modules\_typed.js121436361000000000 0
 61C:\Users\Has\Desktop\AleControlTasksV2\node_modules\call-bind132593297991928965 1
 62C:\Users\Has\Desktop\AleControlTasksV2\node_modules\randomfill132593297989126707 1
@@ -1276,7 +1274,6 @@
 67C:\Users\Has\Desktop\AleControlTasksV2\node_modules\css-color-names132593297984908356 1
 85C:\Users\Has\Desktop\AleControlTasksV2\node_modules\css-tree\lib\syntax\node\Ratio.js121436361000000000 0
 76C:\Users\Has\Desktop\AleControlTasksV2\node_modules\tiny-invariant\README.md121436361000000000 0
-63C:\Users\Has\Desktop\AleControlTasksV2\node_modules\resolve-url132593297988897338 1
 126C:\Users\Has\Desktop\AleControlTasksV2\node_modules\typescript\loc\lcl\FRA\TypeScriptDebugEngine\TypeScriptDebugEngine.dll.lcl121436361000000000 0
 85C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\test\fs_twice\4x.js121436361000000000 0
 74C:\Users\Has\Desktop\AleControlTasksV2\node_modules\css-declaration-sorter132593297990273536 1
@@ -2211,11 +2208,11 @@
 64C:\Users\Has\Desktop\AleControlTasksV2\node_modules\toidentifier132593297985756014 1
 92C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es-abstract\2017\IsAccessorDescriptor.js121436361000000000 0
 86C:\Users\Has\Desktop\AleControlTasksV2\node_modules\string.prototype.trimend\.eslintrc121436361000000000 0
-69C:\Users\Has\Desktop\AleControlTasksV2\node_modules\which-typed-array132593297991460258 1
-95C:\Users\Has\Desktop\AleControlTasksV2\node_modules\purgecss\node_modules\postcss\lib\result.js121436361000000000 0
 126C:\Users\Has\Desktop\AleControlTasksV2\node_modules\babel-runtime\node_modules\core-js\library\modules\es6.array.find-index.js121436361000000000 0
 100C:\Users\Has\Desktop\AleControlTasksV2\node_modules\simple-swizzle\node_modules\is-arrayish\index.js131738689870000000 0
 111C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\path-browserify\package.json121436361000000000 0
+95C:\Users\Has\Desktop\AleControlTasksV2\node_modules\purgecss\node_modules\postcss\lib\result.js121436361000000000 0
+69C:\Users\Has\Desktop\AleControlTasksV2\node_modules\which-typed-array132593297991460258 1
 57C:\Users\Has\Desktop\AleControlTasksV2\node_modules\jsesc132593297990482965 1
 68C:\Users\Has\Desktop\AleControlTasksV2\node_modules\https-browserify132593297986224722 1
 95C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\lib\utils\serializeObject.js121436361000000000 0
@@ -2977,6 +2974,7 @@
 66C:\Users\Has\Desktop\AleControlTasksV2\node_modules\to-arraybuffer132593297988887367 1
 89C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\types\lib\validators\generated132593298002958497 1
 65C:\Users\Has\Desktop\AleControlTasksV2\node_modules\requires-port132593297988667978 1
+63C:\Users\Has\Desktop\AleControlTasksV2\node_modules\resolve-url132593297988897338 1
 84C:\Users\Has\Desktop\AleControlTasksV2\node_modules\core-js\internals\an-instance.js121436361000000000 0
 78C:\Users\Has\Desktop\AleControlTasksV2\node_modules\serve-handler\src\error.js121436361000000000 0
 101C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\plugin-syntax-top-level-await\package.json121012626000000000 0
@@ -6398,6 +6396,10 @@
 96C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\runtime\helpers\esm\defineProperty.js121012626000000000 0
 120C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\.idea\misc.xml121436361000000000 0
 104C:\Users\Has\Desktop\AleControlTasksV2\node_modules\stream-http\node_modules\readable-stream\readable.js121436361000000000 0
+75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\astring\babel.config.js121436361000000000 0
+102C:\Users\Has\Desktop\AleControlTasksV2\node_modules\stream-http\node_modules\readable-stream\README.md121436361000000000 0
+76C:\Users\Has\Desktop\AleControlTasksV2\node_modules\rgba-regex\.editorconfig130673243740000000 0
+89C:\Users\Has\Desktop\AleControlTasksV2\node_modules\is-boolean-object\.github\FUNDING.yml121436361000000000 0
 110C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\fn\regexp\to-string.js121436361000000000 0
 98C:\Users\Has\Desktop\AleControlTasksV2\node_modules\react-router\node_modules\isarray\package.json130141499470000000 0
 90C:\Users\Has\Desktop\AleControlTasksV2\node_modules\http-proxy-middleware\dist\router.d.ts121436361000000000 0
@@ -6696,8 +6698,6 @@
 103C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\node_modules\source-map\source-map.js131508414070000000 0
 77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\lodash\_basePropertyOf.js121436361000000000 0
 103C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\node_modules\source-map\lib\base64.js131369414910000000 0
-84C:\Users\Has\Desktop\AleControlTasksV2\node_modules\csso\node_modules\source-map\lib132593297994721251 1
-104C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\stream-http\test\node132593297997274198 1
 110C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\node_modules\source-map\lib\binary-search.js131369414910000000 0
 98C:\Users\Has\Desktop\AleControlTasksV2\node_modules\csso\node_modules\css-tree\dist\csstree.min.js121436361000000000 0
 109C:\Users\Has\Desktop\AleControlTasksV2\node_modules\static-module\node_modules\source-map\lib\mapping-list.js131369414910000000 0
@@ -11121,7 +11121,7 @@
 81C:\Users\Has\Desktop\AleControlTasksV2\node_modules\path-is-absolute\package.json131196841210000000 0
 73C:\Users\Has\Desktop\AleControlTasksV2\node_modules\path-dirname\index.js131212850980000000 0
 77C:\Users\Has\Desktop\AleControlTasksV2\node_modules\path-dirname\package.json131212852170000000 0
-65C:\Users\Has\Desktop\AleControlTasksV2\dist\index.ed731f93.js.map132594253475943064 0
+65C:\Users\Has\Desktop\AleControlTasksV2\dist\index.ed731f93.js.map132594343716350534 0
 122C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\_new-promise-capability.js121436361000000000 0
 75C:\Users\Has\Desktop\AleControlTasksV2\node_modules\path-browserify\.github132593297995299653 1
 104C:\Users\Has\Desktop\AleControlTasksV2\node_modules\jsdom\lib\jsdom\living\helpers\mutation-observers.js121436361000000000 0
@@ -12141,7 +12141,7 @@
 110C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\_same-value.js121436361000000000 0
 117C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\_set-collection-of.js121436361000000000 0
 109C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\_set-proto.js121436361000000000 0
-54C:\Users\Has\Desktop\AleControlTasksV2\dist\index.html132594253475823381 0
+54C:\Users\Has\Desktop\AleControlTasksV2\dist\index.html132594343716240825 0
 88C:\Users\Has\Desktop\AleControlTasksV2\node_modules\es-abstract\2020\BigInt\bitwiseOR.js121436361000000000 0
 117C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\modules\_set-to-string-tag.js121436361000000000 0
 120C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\optimizer-htmlnano\node_modules\entities\lib\decode.d.ts.map121436361000000000 0
@@ -12204,7 +12204,6 @@
 118C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\web\dom-collections.js121436361000000000 0
 110C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\es6\promise.js121436361000000000 0
 112C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\web\immediate.js121436361000000000 0
-108C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\web\index.js121436361000000000 0
 96C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@babel\helper-module-transforms\lib\index.js121012626000000000 0
 110C:\Users\Has\Desktop\AleControlTasksV2\node_modules\@parcel\transformer-posthtml\node_modules\semver\semver.js121436361000000000 0
 106C:\Users\Has\Desktop\AleControlTasksV2\node_modules\parcel-bundler\node_modules\core-js\library\stage\0.js121436361000000000 0
@@ -13661,6 +13660,8 @@
 104C:\Users\Has\Desktop\AleControlTasksV2\node_modules\jsdom\lib\jsdom\living\nodes\HTMLBodyElement-impl.js121436361000000000 0
 102C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\stream-http\LICENSE121436361000000000 0
 107C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\stream-http\test\browser132593297996935140 1
+84C:\Users\Has\Desktop\AleControlTasksV2\node_modules\csso\node_modules\source-map\lib132593297994721251 1
+104C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\stream-http\test\node132593297997274198 1
 106C:\Users\Has\Desktop\AleControlTasksV2\node_modules\node-libs-browser\node_modules\stream-http\test\server132593297997812710 1
 85C:\Users\Has\Desktop\AleControlTasksV2\node_modules\json-schema\draft-04\hyper-schema131173448000000000 0
 79C:\Users\Has\Desktop\AleControlTasksV2\node_modules\crypto-browserify\test\node132593297994791060 1
@@ -24800,4 +24801,4 @@
 65C:\Users\Has\Desktop\AleControlTasksV2\node_modules\.bin\uuid.ps1132593298015613541 0
 62C:\Users\Has\Desktop\AleControlTasksV2\node_modules\.bin\which132593298015603570 0
 66C:\Users\Has\Desktop\AleControlTasksV2\node_modules\.bin\which.cmd132593298015613541 0
-61C:\Users\Has\Desktop\AleControlTasksV2\dist\index.ed731f93.js132594253475903441 0
+61C:\Users\Has\Desktop\AleControlTasksV2\dist\index.ed731f93.js132594343716310638 0
