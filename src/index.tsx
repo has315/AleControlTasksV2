@@ -6,7 +6,7 @@ import {
     Route,
     Link
 } from "react-router-dom";
-// import DragDrop from './pages/DragDrop'
+import {DraggableUserList} from './pages/DragDrop'
 import {PageWithForm} from './pages/form'
 const Application: React.FC<{}> = () => (
     <>
@@ -20,7 +20,7 @@ const Application: React.FC<{}> = () => (
                         <Link to="/form">Form</Link>
                     </li>
                     <li>
-                        <Link to="/dashboard">Dashboard</Link>
+                        <Link to="/dragdrop">Dashboard</Link>
                     </li>
                 </ul>
 
@@ -35,10 +35,10 @@ const Application: React.FC<{}> = () => (
         */}
                 <Switch>
                     <Route exact path="/">
-                        {/* <DragDrop /> */}
+                        <DraggableUserList />
                     </Route>
                     <Route path="/form">
-                        <PageWithForm/>
+                        {/* <PageWithForm/> */}
                     </Route>
                     <Route path="/dashboard">
                         <Dashboard />
