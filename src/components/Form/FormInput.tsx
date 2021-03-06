@@ -1,22 +1,23 @@
 import React, { useContext } from 'react'
-import { FormInputType } from '../../types/FormTypes'
-import FormContext from './FormContext'
+import { FormInputs, FormInputType } from '../../types/FormTypes'
+import FormContext from '../../context/FormContext'
 
 export const FormInput = ({ type, name, placeHolder, required }: FormInputType) => {
     const context = useContext(FormContext);
 
     const onChange = (e: React.FormEvent<HTMLInputElement>) => {
         const currentState = context?.state
+        const splitName = name?.split('.');
 
-        const traverse: any = (obj: any, keys: string[]) => {
+        const traverse: any = (obj: FormInputs, keys: Array<string>) => {            
             if (keys.length === 1) {
                 return { ...obj, [keys[0]]: e.currentTarget.value };
             } else {
                 return { ...obj, [keys[0]]: traverse(obj[keys[0]], keys.splice(1)) };
             }
         };
-
-        context?.saveState(traverse(currentState, name))
+        context?.onSubmit(traverse(currentState, splitName))
+        
     }
 
     return (
@@ -29,6 +30,7 @@ export const FormInput = ({ type, name, placeHolder, required }: FormInputType) 
                 placeholder={placeHolder}
                 required={required}
                 onChange={onChange}
+                // onSubmit={onSubmit}
             />
             <br />
         </>

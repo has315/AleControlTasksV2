@@ -30,8 +30,8 @@ export type FormInputType = {
 }
 
 export type FormContextType = {
-    state: FormInputs,
-    saveState: (data: FormInputs) => void,
+    initialValues: FormInputs,
+    onSubmit: (data: FormInputs) => void,
     
 }
 

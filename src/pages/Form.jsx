@@ -42,6 +42,7 @@ export const PageWithForm = () => {
 			<FormInput type="text" name="phone.ext" />
 			<FormInput type="text" name="phone.number" />
 			<FormInput type="submit" value="Submit" />
+			{JSON.stringify(userInfo)}
 		</Form>
 	);
 };

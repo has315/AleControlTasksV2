@@ -30887,7 +30887,7 @@ try {
           lineNumber: 44,
           columnNumber: 4
         }
-      }))
+      }), JSON.stringify(userInfo))
     );
   };
   _s(PageWithForm, "hW/s37q/F5ITPcpEe7n5e7vDtSA=");
@@ -30913,43 +30913,29 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _FormContext = require("./FormContext");
-  var _FormContextDefault = _parcelHelpers.interopDefault(_FormContext);
-  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx", _s = $RefreshSig$();
+  var _contextFormContext = require("../../context/FormContext");
+  var _contextFormContextDefault = _parcelHelpers.interopDefault(_contextFormContext);
+  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx";
   const Form = ({initialValues, className, onSubmit, children}) => {
-    _s();
-    const [state, setState] = _react.useState(initialValues);
-    const saveState = ({age, email, name, phone}) => {
-      const newState = {
-        email,
-        age,
-        name,
-        phone
-      };
-      setState({
-        ...state,
-        newState
-      });
-    };
-    // onsubmit setuje orig parent data
-    // form context za child comp.
-    // 
-    // const handleForm = (e: React.FormEvent<HTMLInputElement>): void => {
-    // setFormData({
-    // ...formData,
-    // [e.currentTarget.id]: e.currentTarget.value,
-    // })
+    // const saveState = ({ age, email, name, phone }: FormInputs) => {
+    // const newState: FormInputs = {
+    // email,
+    // age,
+    // name,
+    // phone
+    // }
+    // setState({ ...state, newState })
     // }
     return (
-      /*#__PURE__*/_reactDefault.default.createElement(_FormContextDefault.default.Provider, {
+      /*#__PURE__*/_reactDefault.default.createElement(_contextFormContextDefault.default.Provider, {
         value: {
-          state,
-          saveState
+          initialValues,
+          onSubmit
         },
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32,
+          lineNumber: 20,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -30957,13 +30943,12 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 21,
           columnNumber: 7
         }
       }, children))
     );
   };
-  _s(Form, "P+uqYA0JrtyMDjCMyNDrD/rKLYY=");
   _c = Form;
   var _c;
   $RefreshReg$(_c, "Form");
@@ -30973,8 +30958,8 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","react":"3b2NM","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./FormContext":"5YnIM"}],"5YnIM":[function(require,module,exports) {
-var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","react":"3b2NM","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../../context/FormContext":"6mAB1"}],"6mAB1":[function(require,module,exports) {
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
 helpers.prelude(module);
@@ -30994,7 +30979,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7jwIV":[function(require,module,exports) {
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7jwIV":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -31007,14 +30992,15 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _FormContext = require('./FormContext');
-  var _FormContextDefault = _parcelHelpers.interopDefault(_FormContext);
+  var _contextFormContext = require('../../context/FormContext');
+  var _contextFormContextDefault = _parcelHelpers.interopDefault(_contextFormContext);
   var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\FormInput.tsx", _s = $RefreshSig$();
   const FormInput = ({type, name, placeHolder, required}) => {
     _s();
-    const context = _react.useContext(_FormContextDefault.default);
+    const context = _react.useContext(_contextFormContextDefault.default);
     const onChange = e => {
       const currentState = context?.state;
+      const splitName = name?.split?.('.');
       const traverse = (obj, keys) => {
         if (keys.length === 1) {
           return {
@@ -31028,7 +31014,7 @@ try {
           };
         }
       };
-      context?.saveState?.(traverse(currentState, name));
+      context?.onSubmit?.(traverse(currentState, splitName));
     };
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, null, /*#__PURE__*/_reactDefault.default.createElement("label", {
@@ -31036,14 +31022,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24,
+          lineNumber: 25,
           columnNumber: 13
         }
       }, name), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 26,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -31055,14 +31041,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 27,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33,
+          lineNumber: 35,
           columnNumber: 13
         }
       }))
@@ -31078,6 +31064,6 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","./FormContext":"5YnIM"}]},["1j6wU","7zVbA","5mCR7"], "5mCR7", "parcelRequire9694")
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../../context/FormContext":"6mAB1"}]},["1j6wU","7zVbA","5mCR7"], "5mCR7", "parcelRequire9694")
 
 //# sourceMappingURL=index.ed731f93.js.map
