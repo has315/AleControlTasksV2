@@ -18,7 +18,6 @@
 */
 import React, { useState } from 'react';
 import { Form } from '../components/Form/Form';
-import { FormContext } from '../components/Form/FormContext';
 import { FormInput } from '../components/Form/FormInput';
 
 
@@ -36,17 +35,13 @@ export const PageWithForm = () => {
 	});
 
 	return (
-		<>
-			<FormContext>
-				<Form className='' initialValues={userInfo} onSubmit={setUserInfo}>
-					<FormInput type="email" required name="email" placeHolder="your@email.com" />
-					<FormInput type="number" name="age" />
-					<FormInput type="text" required name="name" />
-					<FormInput type="text" name="phone.ext" />
-					<FormInput type="text" name="phone.number" />
-					<FormInput type="submit" value="Submit" />
-				</Form>
-			</FormContext>
-		</>
+		<Form className='' initialValues={userInfo} onSubmit={setUserInfo}>
+			<FormInput type="email" required name="email" placeHolder="your@email.com" />
+			<FormInput type="number" name="age" />
+			<FormInput type="text" required name="name" />
+			<FormInput type="text" name="phone.ext" />
+			<FormInput type="text" name="phone.number" />
+			<FormInput type="submit" value="Submit" />
+		</Form>
 	);
 };

@@ -1,3 +1,4 @@
+import React from "react"
 
 //Form Types
 export type FormProps = {
@@ -9,26 +10,28 @@ export type FormProps = {
 
 
 // Input Types
-export type FormInputsTypes = {
+export type FormInputs={
     email: string,
     age: number,
     name: string,
     phone: {
         ext: string,
         number: string
-    }
+    },
+    [key: string]: any
 }
 
 //Input props types
-export type FormInputTypes = {
+export type FormInputType = {
     type: string,
     name: string,
     placeHolder: string,
     required: boolean,
-    onSubmit: () => {}
 }
 
-export type FormContextProps = {
-   
+export type FormContextType = {
+    state: FormInputs,
+    saveState: (data: FormInputs) => void,
     
 }
+
