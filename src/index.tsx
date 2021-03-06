@@ -20,7 +20,7 @@ const Application: React.FC<{}> = () => (
                         <Link to="/form">Form</Link>
                     </li>
                     <li>
-                        <Link to="/dragdrop">Dashboard</Link>
+                        <Link to="/dragdrop">Drag n Drop</Link>
                     </li>
                 </ul>
 

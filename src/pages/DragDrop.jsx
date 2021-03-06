@@ -21,7 +21,9 @@
 	Puno srece ;-)
 */
 import React, { useState } from 'react';
-import { DragContext, DragArea, DragItem } from '../components/DragDrop';
+import { DragContext } from '../components/DragDrop/DragContext';
+import { DragArea } from '../components/DragDrop/DragArea'
+import { DragItem } from '../components/DragDrop/DragItem'
 import users from '../data/users';
 
 export const DraggableUserList = () => {
@@ -33,7 +35,7 @@ export const DraggableUserList = () => {
 			<ul>
 				<DragArea items={exampleUsers} onChange={setExampleUsers}>
 					{exampleUsers.map((user, i) => (
-						<DragItem note="ovde moze da ide key, index, itd.">
+						<DragItem key={i} note="ovde moze da ide key, index, itd.">
 							<li>
 								<span>{user.name}</span>
 								<span>{user.email}</span>
