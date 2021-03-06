@@ -30917,15 +30917,6 @@ try {
   var _contextFormContextDefault = _parcelHelpers.interopDefault(_contextFormContext);
   var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx";
   const Form = ({initialValues, className, onSubmit, children}) => {
-    // const saveState = ({ age, email, name, phone }: FormInputs) => {
-    // const newState: FormInputs = {
-    // email,
-    // age,
-    // name,
-    // phone
-    // }
-    // setState({ ...state, newState })
-    // }
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_contextFormContextDefault.default.Provider, {
         value: {
@@ -30935,7 +30926,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20,
+          lineNumber: 8,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
@@ -30943,7 +30934,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21,
+          lineNumber: 9,
           columnNumber: 7
         }
       }, children))
@@ -30998,8 +30989,8 @@ try {
   const FormInput = ({type, name, placeHolder, required}) => {
     _s();
     const context = _react.useContext(_contextFormContextDefault.default);
+    const currentState = context?.initialValues;
     const onChange = e => {
-      const currentState = context?.state;
       const splitName = name?.split?.('.');
       const traverse = (obj, keys) => {
         if (keys.length === 1) {
@@ -31022,14 +31013,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25,
+          lineNumber: 24,
           columnNumber: 13
         }
       }, name), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 25,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -31041,14 +31032,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 26,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 33,
           columnNumber: 13
         }
       }))

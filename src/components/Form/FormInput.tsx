@@ -4,9 +4,9 @@ import FormContext from '../../context/FormContext'
 
 export const FormInput = ({ type, name, placeHolder, required }: FormInputType) => {
     const context = useContext(FormContext);
+    const currentState = context?.initialValues
 
     const onChange = (e: React.FormEvent<HTMLInputElement>) => {
-        const currentState = context?.state
         const splitName = name?.split('.');
 
         const traverse: any = (obj: FormInputs, keys: Array<string>) => {            
@@ -17,9 +17,8 @@ export const FormInput = ({ type, name, placeHolder, required }: FormInputType) 
             }
         };
         context?.onSubmit(traverse(currentState, splitName))
-        
     }
-
+    
     return (
         <>
             <label htmlFor={name}>{name}</label>
@@ -30,7 +29,6 @@ export const FormInput = ({ type, name, placeHolder, required }: FormInputType) 
                 placeholder={placeHolder}
                 required={required}
                 onChange={onChange}
-                // onSubmit={onSubmit}
             />
             <br />
         </>
