@@ -2,6 +2,6 @@
 ./dist
 /.parcel-cache
 node_modules
-dist/
+/dist/
 .parcel-cache/
 **/
