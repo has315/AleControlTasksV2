@@ -30921,25 +30921,20 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx", _s = $RefreshSig$();
+  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx";
   const Form = ({initialValues, className, onSubmit, children}) => {
-    _s();
-    // onSubmit(should provide child input values) // SET INFO AT PARENT
-    console.log(initialValues);
-    const [userValues, setUserValues] = _react.useState(initialValues);
     return (
       /*#__PURE__*/_reactDefault.default.createElement("div", {
         className: className,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
+          lineNumber: 8,
           columnNumber: 5
         }
       }, children)
     );
   };
-  _s(Form, "afD4TeDzg0EVRNegi8yrP2s4YxU=");
   _c = Form;
   var _c;
   $RefreshReg$(_c, "Form");
@@ -30975,14 +30970,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10,
+          lineNumber: 13,
           columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("div", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
+          lineNumber: 14,
           columnNumber: 13
         }
       }, children))
