@@ -31016,11 +31016,17 @@ try {
     const onChange = e => {
       const currentState = context?.state;
       const traverse = (obj, keys) => {
-        let value = keys.length > 1 ? traverse(obj[keys[0]], keys.splice(1)) : e.currentTarget.value;
-        return {
-          ...obj,
-          [keys[0]]: value
-        };
+        if (keys.length === 1) {
+          return {
+            ...obj,
+            [keys[0]]: e.currentTarget.value
+          };
+        } else {
+          return {
+            ...obj,
+            [keys[0]]: traverse(obj[keys[0]], keys.splice(1))
+          };
+        }
       };
       context?.saveState?.(traverse(currentState, name));
     };
@@ -31030,14 +31036,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 24,
           columnNumber: 13
         }
       }, name), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27,
+          lineNumber: 25,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -31049,14 +31055,14 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 26,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35,
+          lineNumber: 33,
           columnNumber: 13
         }
       }))

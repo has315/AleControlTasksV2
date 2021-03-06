@@ -9,13 +9,11 @@ export const FormInput = ({ type, name, placeHolder, required }: FormInputType) 
         const currentState = context?.state
 
         const traverse: any = (obj: any, keys: string[]) => {
-            let value = keys.length > 1 ? traverse(obj[keys[0]], keys.splice(1)): e.currentTarget.value;
-            return {...obj,[keys[0]]: value }
-            // if (keys.length === 1) {
-            //     return { ...obj, [keys[0]]: e.currentTarget.value };
-            // } else {
-            //     return { ...obj, [keys[0]]:  };
-            // }
+            if (keys.length === 1) {
+                return { ...obj, [keys[0]]: e.currentTarget.value };
+            } else {
+                return { ...obj, [keys[0]]: traverse(obj[keys[0]], keys.splice(1)) };
+            }
         };
 
         context?.saveState(traverse(currentState, name))
