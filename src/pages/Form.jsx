@@ -18,7 +18,10 @@
 */
 import React, { useState } from 'react';
 import { Form } from '../components/Form/Form';
-import {FormInput} from '../components/Form/FormInput'
+import { FormContext } from '../components/Form/FormContext';
+import { FormInput } from '../components/Form/FormInput';
+
+
 
 export const PageWithForm = () => {
 	// Example
@@ -33,10 +36,9 @@ export const PageWithForm = () => {
 	});
 
 	return (
-		<div>
-			asd
-
-				<Form className='asd' initialValues={userInfo} onSubmit={setUserInfo}>
+		<>
+			<FormContext>
+				<Form className='' initialValues={userInfo} onSubmit={setUserInfo}>
 					<FormInput type="email" required name="email" placeHolder="your@email.com" />
 					<FormInput type="number" name="age" />
 					<FormInput type="text" required name="name" />
@@ -44,6 +46,7 @@ export const PageWithForm = () => {
 					<FormInput type="text" name="phone.number" />
 					<FormInput type="submit" value="Submit" />
 				</Form>
-		</div>
+			</FormContext>
+		</>
 	);
 };

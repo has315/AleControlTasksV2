@@ -1,9 +1,15 @@
 import React from 'react'
 import { FormInputTypes } from '../../types/FormTypes'
-export const FormInput = ({type,name,placeHolder, required, onChange}: FormInputTypes) => {
+
+export const FormInput = ({type,name,placeHolder, onSubmit, required}: FormInputTypes) => {
+
+    const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+       
+      }
+
     return (
         <>
-            <label></label>
+            <label htmlFor={name}>{name}</label>
             <br />
             <input
             type={type}
@@ -12,6 +18,7 @@ export const FormInput = ({type,name,placeHolder, required, onChange}: FormInput
             required={required}
             onChange={onChange}
             />
+             <br />
         </>
     )
 }

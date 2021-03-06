@@ -9,7 +9,7 @@ export type FormProps = {
 
 
 // Input Types
-export type FormInputsTypes ={
+export type FormInputsTypes = {
     email: string,
     age: number,
     name: string,
@@ -25,6 +25,10 @@ export type FormInputTypes = {
     name: string,
     placeHolder: string,
     required: boolean,
-    onChange: React.ChangeEventHandler<HTMLInputElement> | undefined
+    onSubmit: () => {}
 }
 
+export type FormContextProps = {
+   
+    
+}

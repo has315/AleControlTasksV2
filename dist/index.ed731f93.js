@@ -30805,6 +30805,7 @@ try {
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _componentsFormForm = require('../components/Form/Form');
+  var _componentsFormFormContext = require('../components/Form/FormContext');
   var _componentsFormFormInput = require('../components/Form/FormInput');
   var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\pages\\form.jsx", _s = $RefreshSig$();
   const PageWithForm = () => {
@@ -30820,21 +30821,21 @@ try {
       }
     });
     return (
-      /*#__PURE__*/_reactDefault.default.createElement("div", {
+      /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, null, /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormContext.FormContext, {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36,
-          columnNumber: 3
+          lineNumber: 40,
+          columnNumber: 4
         }
-      }, "asd", /*#__PURE__*/_reactDefault.default.createElement(_componentsFormForm.Form, {
-        className: "asd",
+      }, /*#__PURE__*/_reactDefault.default.createElement(_componentsFormForm.Form, {
+        className: "",
         initialValues: userInfo,
         onSubmit: setUserInfo,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39,
+          lineNumber: 41,
           columnNumber: 5
         }
       }, /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormInput.FormInput, {
@@ -30845,7 +30846,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40,
+          lineNumber: 42,
           columnNumber: 6
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormInput.FormInput, {
@@ -30854,7 +30855,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 43,
           columnNumber: 6
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormInput.FormInput, {
@@ -30864,7 +30865,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42,
+          lineNumber: 44,
           columnNumber: 6
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormInput.FormInput, {
@@ -30873,7 +30874,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43,
+          lineNumber: 45,
           columnNumber: 6
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormInput.FormInput, {
@@ -30882,7 +30883,7 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44,
+          lineNumber: 46,
           columnNumber: 6
         }
       }), /*#__PURE__*/_reactDefault.default.createElement(_componentsFormFormInput.FormInput, {
@@ -30891,10 +30892,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45,
+          lineNumber: 47,
           columnNumber: 6
         }
-      })))
+      }))))
     );
   };
   _s(PageWithForm, "hW/s37q/F5ITPcpEe7n5e7vDtSA=");
@@ -30907,7 +30908,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","../components/Form/Form":"2XlZG","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../components/Form/FormInput":"7jwIV"}],"2XlZG":[function(require,module,exports) {
+},{"react":"3b2NM","../components/Form/Form":"2XlZG","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","../components/Form/FormContext":"5YnIM","../components/Form/FormInput":"7jwIV"}],"2XlZG":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -30920,15 +30921,25 @@ try {
   });
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
-  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx";
-  const Form = ({initialValues, className, onSubmit, children}) => /*#__PURE__*/_reactDefault.default.createElement("div", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
-    }
-  }, children);
+  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\Form.tsx", _s = $RefreshSig$();
+  const Form = ({initialValues, className, onSubmit, children}) => {
+    _s();
+    // onSubmit(should provide child input values) // SET INFO AT PARENT
+    console.log(initialValues);
+    const [userValues, setUserValues] = _react.useState(initialValues);
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: className,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 5
+        }
+      }, children)
+    );
+  };
+  _s(Form, "afD4TeDzg0EVRNegi8yrP2s4YxU=");
   _c = Form;
   var _c;
   $RefreshReg$(_c, "Form");
@@ -30938,7 +30949,55 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","react":"3b2NM","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7jwIV":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","react":"3b2NM","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"5YnIM":[function(require,module,exports) {
+var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  _parcelHelpers.export(exports, "FormContexts", function () {
+    return FormContexts;
+  });
+  _parcelHelpers.export(exports, "FormContext", function () {
+    return FormContext;
+  });
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\FormContext.tsx";
+  const FormContexts = /*#__PURE__*/_react.createContext(null);
+  const FormContext = ({children}) => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement(FormContexts.Provider, {
+        value: null,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 13
+        }
+      }, children))
+    );
+  };
+  _c = FormContext;
+  var _c;
+  $RefreshReg$(_c, "FormContext");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+
+},{"react":"3b2NM","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"7jwIV":[function(require,module,exports) {
 var helpers = require("../../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -30952,20 +31011,22 @@ try {
   var _react = require('react');
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _jsxFileName = "C:\\Users\\Has\\Desktop\\AleControlTasksV2\\src\\components\\Form\\FormInput.tsx";
-  const FormInput = ({type, name, placeHolder, required, onChange}) => {
+  const FormInput = ({type, name, placeHolder, onSubmit, required}) => {
+    const onChange = e => {};
     return (
       /*#__PURE__*/_reactDefault.default.createElement(_reactDefault.default.Fragment, null, /*#__PURE__*/_reactDefault.default.createElement("label", {
+        htmlFor: name,
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 6,
+          lineNumber: 12,
           columnNumber: 13
         }
-      }), /*#__PURE__*/_reactDefault.default.createElement("br", {
+      }, name), /*#__PURE__*/_reactDefault.default.createElement("br", {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7,
+          lineNumber: 13,
           columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("input", {
@@ -30977,8 +31038,15 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 8,
+          lineNumber: 14,
           columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 14
         }
       }))
     );
