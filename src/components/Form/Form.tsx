@@ -4,14 +4,14 @@ import FormContext from "../../context/FormContext";
 
 export const Form: React.FC<FormProps> = ({ initialValues, className, onSubmit, children }: FormProps) => {
   
-  const fun = (e: React.FormEvent<HTMLFormElement>) => {
+  const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(initialValues)
   }
 
   return (
     <FormContext.Provider value={{ initialValues, onSubmit }}>
-      <form onSubmit={fun} className={className}>{children}</form>
+      <form onSubmit={onFormSubmit} className={className}>{children}</form>
     </FormContext.Provider>
   );
 }

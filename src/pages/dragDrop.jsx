@@ -21,7 +21,7 @@
 	Puno srece ;-)
 */
 import React, { useState } from 'react';
-import { DragArea, DragItem } from 'path_to_your_file';
+import { DragArea, DragItem } from '../components/DragnDrop';
 import users from '../data/users';
 
 export const DraggableUserList = () => {
@@ -29,11 +29,10 @@ export const DraggableUserList = () => {
 	const [exampleUsers, setExampleUsers] = useState(users);
 
 	return (
-		<DragContext note="Ovo je opcionalan wrapper"> 
 			<ul>
 				<DragArea items={exampleUsers} onChange={setExampleUsers}>
 					{exampleUsers.map((user, i) => (
-						<DragItem note="ovde moze da ide key, index, itd.">
+						<DragItem key={i} note="ovde moze da ide key, index, itd.">
 							<li>
 								<span>{user.name}</span>
 								<span>{user.email}</span>
@@ -42,7 +41,6 @@ export const DraggableUserList = () => {
 					))}
 				</DragArea>
 			</ul>
-		</DragContext>
 	);
 };
 

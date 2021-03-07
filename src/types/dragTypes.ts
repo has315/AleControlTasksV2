@@ -1,4 +1,16 @@
+import React from "react"
+
+export type DragProps = {
+    items: {},
+    onChange: () => {}
+    children?: React.ReactNode
+}
+
+export type DragItemProps = {
+    children?: React.ReactNode
+}
+
 export type DragContextType = {
-    initialValues: any,
-    
+    state: any,
+    updateState: () => {}    
 }
