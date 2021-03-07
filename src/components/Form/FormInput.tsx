@@ -34,3 +34,5 @@ export const FormInput = ({ type, name, placeHolder, required }: FormInputType) 
         </>
     )
 }
+
+export default FormInput

@@ -5,11 +5,12 @@ import { DragItemProps } from '~/types/dragTypes'
 
 const DragItem: React.FC<DragItemProps> = ({children}) => {
 
-    const {items} = useContext(DragContext)
+    const items = useContext(DragContext)
 
+    
     const onDragStart = (e: React.DragEvent<HTMLDivElement>) => {
         e.preventDefault();
-        console.log(e.currentTarget.innerText)
+        console.log(e.currentTarget.innerText)        
     }
 
     return (

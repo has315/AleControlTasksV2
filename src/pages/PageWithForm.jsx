@@ -17,8 +17,7 @@
 	Puno srece ;-)
 */
 import React, { useState } from 'react';
-import { Form } from '../components/Form/Form';
-import { FormInput } from '../components/Form/FormInput';
+import { Form, FormInput } from '../components/Form/';
 
 
 

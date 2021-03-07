@@ -1,16 +1,7 @@
 import React from "react"
 
-//Form Types
-export type FormProps = {
-    initialValues: any,
-    onSubmit: any,
-    className: string,
-    children?: React.ReactNode
-}
-
-
 // Input Types
-export type FormInputs={
+export type FormInputs = {
     email: string,
     age: number,
     name: string,
@@ -19,6 +10,15 @@ export type FormInputs={
         number: string
     },
     [key: string]: any
+}
+
+
+//Form Types
+export type FormProps = {
+    initialValues: FormInputs,
+    onSubmit: () => {},
+    className: string,
+    children?: React.ReactNode
 }
 
 //Input props types
@@ -32,6 +32,6 @@ export type FormInputType = {
 export type FormContextType = {
     initialValues: FormInputs,
     onSubmit: (data: FormInputs) => void,
-    
+
 }
 

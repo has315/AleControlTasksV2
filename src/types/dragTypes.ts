@@ -11,6 +11,6 @@ export type DragItemProps = {
 }
 
 export type DragContextType = {
-    state: any,
-    updateState: () => {}    
+    items: any,
+    onChange: (data: any) => {}    
 }

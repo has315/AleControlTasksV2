@@ -1,8 +1,8 @@
-import React, { useContext, useState } from 'react';
-import { FormProps, FormInputs, FormContextType } from '../../types/formTypes'
+import React from 'react';
 import FormContext from "../../context/FormContext";
+import { FormProps } from "~/types/formTypes";
 
-export const Form: React.FC<FormProps> = ({ initialValues, className, onSubmit, children }: FormProps) => {
+const Form: React.FC<FormProps> = ({ initialValues, className, onSubmit, children }: FormProps) => {
   
   const onFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -15,3 +15,5 @@ export const Form: React.FC<FormProps> = ({ initialValues, className, onSubmit, 
     </FormContext.Provider>
   );
 }
+
+export default Form
