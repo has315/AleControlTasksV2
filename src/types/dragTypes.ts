@@ -2,7 +2,7 @@ import React from "react"
 
 export type DragProps = {
     items: {},
-    onChange: () => {}
+    onChange: () => void
     children?: React.ReactNode
 }
 
@@ -11,6 +11,6 @@ export type DragItemProps = {
 }
 
 export type DragContextType = {
-    items: any,
-    onChange: (data: any) => {}    
+
+    SetDraggedItem: (data: any) => void
 }

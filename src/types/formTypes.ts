@@ -16,7 +16,7 @@ export type FormInputs = {
 //Form Types
 export type FormProps = {
     initialValues: FormInputs,
-    onSubmit: () => {},
+    onSubmit: () => void,
     className: string,
     children?: React.ReactNode
 }
