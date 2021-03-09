@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { FormInputs, FormInputType } from '../../types/formTypes'
 import FormContext from '../../context/FormContext'
 
-export const FormInput = ({ type, name, placeHolder, required }: FormInputType) => {
+export const FormInput: React.FC<FormInputType> = ({ type, name, placeHolder, required }: FormInputType) => {
     const context = useContext(FormContext);
     const currentState = context?.initialValues
 

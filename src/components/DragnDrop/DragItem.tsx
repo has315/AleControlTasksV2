@@ -3,25 +3,33 @@ import { DragContext } from '../../context/DragContext'
 import { DragItemProps } from '~/types/dragTypes'
 
 
-const DragItem: React.FC<DragItemProps> = ({ children }) => {
+const DragItem: React.FC<DragItemProps> = ({ children, index }) => {
 
     const context = useContext(DragContext)
 
 
     const onDragStart = (e: React.DragEvent<HTMLDivElement>) => {
-        e.preventDefault();
-        console.log(e.currentTarget.innerText)
+        // e.preventDefault();
+        console.log(`Drag start: ${index}`);
+        context?.setDraggedItem(index)
 
-        // context?.SetDraggedItem(e.currentTarget)
     }
+
+    const onDragOver = (e: React.DragEvent<HTMLDivElement>) => {
+        // e.preventDefault();
+        console.log(`Drag end: ${index}`);
+        context?.setDraggedOverItem(index)
+    }
+
 
     return (
         <div
-            draggable
+        draggable
             className={''}
+            style={{margin: 10, padding: 30, border: "1px solid red"}}
             onDragStart={onDragStart}
+            onDragOver={onDragOver}
         >
-            
             {children}
         </div>
     )
