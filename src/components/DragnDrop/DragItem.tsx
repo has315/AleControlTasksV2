@@ -10,14 +10,12 @@ const DragItem: React.FC<DragItemProps> = ({ children, index }) => {
 
     const onDragStart = (e: React.DragEvent<HTMLDivElement>) => {
         // e.preventDefault();
-        console.log(`Drag start: ${index}`);
         context?.setDraggedItem(index)
 
     }
 
     const onDragOver = (e: React.DragEvent<HTMLDivElement>) => {
         // e.preventDefault();
-        console.log(`Drag end: ${index}`);
         context?.setDraggedOverItem(index)
     }
 

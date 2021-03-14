@@ -21,6 +21,7 @@ const DragArea: React.FC<DragProps> = ({ items, onChange, children }: DragProps)
         onChange(swapIndex(items, draggedItem, draggedOverItem))
     }
 
+
     const onDragOver = (e: React.DragEvent<HTMLDivElement>) => {
         e.preventDefault();
     }
